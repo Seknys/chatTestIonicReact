@@ -1,0 +1,7 @@
+{
+  "name": "chat_file",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

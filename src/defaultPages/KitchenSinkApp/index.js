@@ -72,25 +72,25 @@ class KitchenSinkApp extends React.PureComponent {
           <p css={titleStyle()}>Kitchen Sink App</p>
           <p css={subtitleStyle()}>Login with one of our sample users</p>
           <div css={userContainerStyle()}>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero1')}>
+            <div css={userWrapperStyle()} onClick={()=>this.login('stev')}>
               <div css={thumbnailWrapperStyle()}>
                 <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/ironman.png' />
               </div>
-              <p>superhero1</p>
+              <p>Stev</p>
             </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero2')}>
+            <div css={userWrapperStyle()} onClick={()=>this.login('t')}>
               <div css={thumbnailWrapperStyle()}>
                 <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/captainamerica.png' />
               </div>
-              <p>superhero2</p>
+              <p>Test</p>
             </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero3')}>
+            <div css={userWrapperStyle()} onClick={()=>this.login('jpr2sfmss1f9ahfdh4quxnegyfj3')}>
               <div css={thumbnailWrapperStyle()}>
                 <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/spiderman.png' />
               </div>
-              <p>superhero3</p>
+              <p>Test2</p>
             </div>
-            <div css={userWrapperStyle()} onClick={()=>this.login('superhero4')}>
+            {/* <div css={userWrapperStyle()} onClick={()=>this.login('superhero4')}>
               <div css={thumbnailWrapperStyle()}>
                 <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/wolverine.png' />
               </div>
@@ -101,7 +101,7 @@ class KitchenSinkApp extends React.PureComponent {
                 <CometChatAvatar image='https://data-us.cometchat.io/assets/images/avatars/cyclops.png' />
               </div>
               <p>superhero5</p>
-            </div>
+            </div> */}
           </div><br/>
           <div css={uidWrapperStyle()}>
             <div>
