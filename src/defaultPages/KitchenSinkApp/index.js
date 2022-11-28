@@ -69,8 +69,8 @@ class KitchenSinkApp extends React.PureComponent {
           {authRedirect}
           {loader}
           {errorMessage}
-          <p css={titleStyle()}>Kitchen Sink App</p>
-          <p css={subtitleStyle()}>Login with one of our sample users</p>
+          <p css={titleStyle()}>CHAT ONLINE</p>
+          <p css={subtitleStyle()}>Inicia sesion con algun usuario </p>
           <div css={userContainerStyle()}>
             <div css={userWrapperStyle()} onClick={()=>this.login('stev')}>
               <div css={thumbnailWrapperStyle()}>
@@ -105,7 +105,7 @@ class KitchenSinkApp extends React.PureComponent {
           </div><br/>
           <div css={uidWrapperStyle()}>
             <div>
-              <p css={subtitleStyle()}>Login with UID</p>
+              <p css={subtitleStyle()}>O ingresa tu uid </p>
             </div>
             <div css={inputWrapperStyle()}>
               <input ref={this.myRef} type="text" placeholder="Enter your UID here" />

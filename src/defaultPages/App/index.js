@@ -66,8 +66,10 @@ class App extends React.Component {
               component={CometChatMessages}
               chatWithGroup="supergroup"
             />
-            {/* <PrivateRoute exact path="/" component={HomePage} /> */}
-            <PrivateRoute exact path="/" component={CometChatUI} />
+            <PrivateRoute exact path="/" component={HomePage} />
+            {/* <PrivateRoute  path="/" component={CometChatUI} /> */}
+    
+
             <Route path="/login" component={KitchenSinkApp} />
           </Switch>
         </Router>

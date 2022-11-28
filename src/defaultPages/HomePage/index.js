@@ -39,13 +39,25 @@ class HomePage extends React.Component {
       <div css={wrapperStyle()}>
         {authRedirect}
         <p css={titleStyle()}>
-          The UI Kit has different ways to make fully customizable UI required
-          to build a chat application.
+          Ejemplo de chat para la materia de aplicaciones Moviles.
         </p>
         <p css={subTitleStyle()}>
-          The UI Kit has been developed to help developers of different levels
-          of experience to build a chat application in a few minutes to a couple
-          of hours.
+          Para la creacion de este proyecto se utilizo la siguiente
+          <a
+            href="https://prodocs.cometchat.com/docs/react-ui-kit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            guia
+          </a>
+          y el siguiente
+          <a
+            href="https://github.com/cometchat-pro/javascript-react-chat-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            repositorio
+          </a>
         </p>
 
         <div css={UIComponentStyle()}>
